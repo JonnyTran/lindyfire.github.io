@@ -7,6 +7,25 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+#container {
+    width: 100px;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.7);
+}
+.stripe {
+    /*background-color: rgba(0,0,0,0.5);*/
+    height: 100px;
+    position: relative;
+}
+.stripe:before {
+    content:"";
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 100%;
+    width: 4000px;
+    left: -2000px;
+    z-index: -1;
+}
 
 #buttoncorner {
 	position: fixed;
