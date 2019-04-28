@@ -1831,7 +1831,7 @@ input, select, textarea {
 		.image.user img {
 		  display: inline-block;
 		  width: 150px;
-		  height: 150px;
+		  height: auto;
 		  border-radius: 50%;
 
 		  background-repeat: no-repeat;
