@@ -1828,6 +1828,17 @@ input, select, textarea {
 			margin: 0 0 4em 0;
 		}
 
+		.image.user img {
+		  display: inline-block;
+		  width: 150px;
+		  height: 150px;
+		  border-radius: 50%;
+
+		  background-repeat: no-repeat;
+		  background-position: center center;
+		  background-size: cover;
+		}
+
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
@@ -1842,6 +1853,7 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+
 
 /* List */
 
